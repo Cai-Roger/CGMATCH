@@ -1,9 +1,9 @@
 import streamlit as st
 from compare_core import run_core_web
 
-st.set_page_config(page_title="GWC 產規匹配（Web 版）", layout="wide")
+st.set_page_config(page_title="GWC 產規匹配程式", layout="wide")
 
-st.title("GWC 產規明細導入模板校驗產出程式（Web 版）")
+st.title("GWC 產規明細導入模板校驗產出程式（Web V10.1.0版）")
 st.caption("來源檔案合併 ➜ 產規規則檢查 ➜ 產出錯誤報表 / 匹配結果檔")
 
 with st.sidebar:
